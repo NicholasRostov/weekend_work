@@ -2,6 +2,11 @@
 
 def find_longest_word(sentence)
 
+  arr = sentence.split(" ")
+  arr.sort! { |a, b| b.length <=> a.length }
+  arr[0]
+
+
 end
 
 # Driver code - don't touch anything below this line.

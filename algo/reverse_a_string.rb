@@ -4,7 +4,9 @@
 
 def reverse_a_string(string)
 
-end
+string.chars.reduce { |x, y| y + x }
+
+ end
 
 # Driver code - don't touch anything below this line.
 puts "TESTING reverse_a_string..."
